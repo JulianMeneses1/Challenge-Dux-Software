@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="challenge.duxsoftware.tennismatch.PlayMatchTest" time="0.078" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\julia\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0\surefire-booter-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0\surefire-api-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0\surefire-extensions-spi-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0\surefire-logger-api-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0\surefire-shared-utils-3.0.0.jar;C:\Users\julia\OneDrive\Documentos\NetBeansProjects\tennismatch\target\test-classes;C:\Users\julia\OneDrive\Documentos\NetBeansProjects\tennismatch\target\classes;C:\Users\julia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\julia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\surefire-junit4\3.0.0\surefire-junit4-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0\common-java5-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\common-junit3\3.0.0\common-junit3-3.0.0.jar;C:\Users\julia\.m2\repository\org\apache\maven\surefire\common-junit4\3.0.0\common-junit4-3.0.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\julia\AppData\Local\Temp\surefire8708699027575471169 2023-07-31T15-05-33_447-jvmRun1 surefire-20230731150533620_1tmp surefire_0-20230731150533620_2tmp"/>
+    <property name="test" value="challenge.duxsoftware.tennismatch.PlayMatchTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\julia\OneDrive\Documentos\NetBeansProjects\tennismatch\target\test-classes;C:\Users\julia\OneDrive\Documentos\NetBeansProjects\tennismatch\target\classes;C:\Users\julia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\julia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\julia"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Users\julia\OneDrive\Documentos\NetBeansProjects\tennismatch"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="julia"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-18\netbeans\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans-18\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\julia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\julia\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\julia\OneDrive\Documentos\NetBeansProjects\tennismatch"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;%JAVA_HOME%\bin;C:\Users\julia\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\julia\AppData\Local\Programs\Python\Python311\;C:\Users\julia\AppData\Local\Microsoft\WindowsApps;C:\Users\julia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\julia\AppData\Roaming\npm;C:\Archivos de programa\nodejs;;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCheckSet" classname="challenge.duxsoftware.tennismatch.PlayMatchTest" time="0.004"/>
+  <testcase name="testCheckMatch" classname="challenge.duxsoftware.tennismatch.PlayMatchTest" time="0.004">
+    <system-out><![CDATA[
+Ganador del partido: Carlos
+Final Wimbledon Finalizado
+Carlos  []      
+Alberto []      
+
+Si desea volver a jugar con la misma configuración, ingrese 1.
+Si en cambio quiere volver a configurar el juego, ingrese 2.
+Si desea finalizar el programa, ingrese 0 
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckGame" classname="challenge.duxsoftware.tennismatch.PlayMatchTest" time="0">
+    <system-out><![CDATA[Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+1       0     
+
+]]></system-out>
+  </testcase>
+  <testcase name="testStartMatch" classname="challenge.duxsoftware.tennismatch.PlayMatchTest" time="0.02">
+    <system-out><![CDATA[
+Comienzo del game. Saca Carlos
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+1       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+2       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+3       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      15    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+4       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+5       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      15    
+
+Carlos gana el punto
+Carlos gana el game.
+Carlos gana el set.
+Resultado parcial partido:
+Carlos  Alberto
+1       0     
+
+Comienzo del set. Saca Alberto
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+1       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      15    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+2       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      15    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+3       0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      40    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+Ventaja 40    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+4       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+5       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Carlos gana el punto
+Carlos gana el game.
+Carlos gana el set.
+Resultado parcial partido:
+Carlos  Alberto
+2       0     
+
+Comienzo del set. Saca Carlos
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+1       0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+2       0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      0     
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+3       0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       30    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       40    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      40    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      40    
+
+Alberto gana el punto
+Alberto gana el game.
+Resultado parcial set:
+Carlos  Alberto
+3       1     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+4       1     
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      0     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      15    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Carlos gana el punto
+Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+5       1     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      30    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      40    
+
+Alberto gana el punto
+Alberto gana el game.
+Resultado parcial set:
+Carlos  Alberto
+5       2     
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       15    
+
+Alberto gana el punto
+Resultado parcial game:
+Carlos  Alberto
+0       30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+15      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+30      30    
+
+Carlos gana el punto
+Resultado parcial game:
+Carlos  Alberto
+40      30    
+
+Carlos gana el punto
+Carlos gana el game.
+Carlos gana el set.
+
+Ganador del partido: Carlos
+Final Wimbledon Finalizado
+Carlos  [6, 6, 6]
+Alberto [0, 0, 2]
+
+Si desea volver a jugar con la misma configuración, ingrese 1.
+Si en cambio quiere volver a configurar el juego, ingrese 2.
+Si desea finalizar el programa, ingrese 0 
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckTiebreak" classname="challenge.duxsoftware.tennismatch.PlayMatchTest" time="0">
+    <system-out><![CDATA[Carlos gana el game.
+Resultado parcial set:
+Carlos  Alberto
+7       6     
+
+Carlos gana el set.
+
+Ganador del partido: Carlos
+Final Wimbledon Finalizado
+Carlos  [7(7)]  
+Alberto [6(5)]  
+
+Si desea volver a jugar con la misma configuración, ingrese 1.
+Si en cambio quiere volver a configurar el juego, ingrese 2.
+Si desea finalizar el programa, ingrese 0 
+]]></system-out>
+  </testcase>
+</testsuite>
